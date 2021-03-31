@@ -12,7 +12,8 @@
     }
 }
 h1 {
-    color: rgb(233, 248, 211);
+    font-style: italic;
+    color:blue;
 }
 body {
      text-align: center;
@@ -39,7 +40,7 @@ body {
 .card-text {
     font-style: italic;
     font-size: medium;
-    color: rgb(192, 253, 101);
+    color: blue;
 }
 .disabled :hover{
     font-size: 35px; 
