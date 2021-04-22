@@ -5,12 +5,41 @@
         height: 568px;
     }
 }
+#homie {
+    background-color: black;
+    font-style: italic;
+    color: white;
+}
 h1 {
+    font-family: cursive;
     font-style: italic;
     color:blue;
 }
 body {
      text-align: center;
+}
+.first /*container*/{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: transparent;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
+   /*item*/ {
+    border: 1px solid black;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+  .flex1 {
+    flex-basis: 25%;
+    border: transparent;
+  }
+.first {
+    background-image: url("img/Lake.jpg");
 }
 #image-1 {
     background-size: 90%;
